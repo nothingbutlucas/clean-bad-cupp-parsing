@@ -37,7 +37,7 @@ clean_spanish.py [file to fix] [fixed file]
 
 #### Example:
 
-You can find the badly parsed Spanish dictionary, at [this url](ftp.funet.fi/pub/unix/security/passwd/crack/dictionaries/spanish/words.spanish.gz).
+You can find the badly parsed Spanish dictionary, at this url -> ftp.funet.fi/pub/unix/security/passwd/crack/dictionaries/spanish/words.spanish.gz
 It is the same as the one downloaded from [cupp](https://github.com/Mebus/cupp)
 Since you downloadit, unzip it with gunzip:
 ```bash
@@ -87,7 +87,7 @@ clean_spanish.py [archivo a arreglar] [archivo arreglado]
 
 #### Ejemplo:
 
-Podes encontrar el diccionario mal parseado en [esta url](ftp.funet.fi/pub/unix/security/passwd/crack/dictionaries/spanish/words.spanish.gz).
+Podes encontrar el diccionario mal parseado en esta url -> ftp.funet.fi/pub/unix/security/passwd/crack/dictionaries/spanish/words.spanish.gz
 Es el mismo que se descarga desde [cupp](https://github.com/Mebus/cupp)
 Una vez descargado, descomprimilo con gunzip
 ```bash
