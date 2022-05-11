@@ -82,7 +82,7 @@ mv clean_spanish.py /usr/bin/
 ```
 Después ejecutalo pasandole 2 argumentos
 ```bash
-clean_spanish.py [file to fix] [fixed file]
+clean_spanish.py [archivo a arreglar] [archivo arreglado]
 ```
 
 #### Ejemplo:
