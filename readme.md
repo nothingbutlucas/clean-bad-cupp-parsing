@@ -1,5 +1,5 @@
 
-# Clean bad parsen spanish dictionary's
+# Clean bad parsen dictionary's
 
 I made this little script to clean up a Spanish dictionary, which I got from the [cupp tool](https://github.com/Mebus/cupp).
 
@@ -23,16 +23,16 @@ pip install pwntools
 
 First, clone the repo:
 ```bash
-git clone https://github.com/nothingbutlucas/clean-spanish-dictionary
+git clone https://github.com/nothingbutlucas/clean-cupp
 ```
 Move the script somewhere in your path:
 ```bash
-cd clean-spanish-dictionary
-mv clean_spanish.py /usr/bin/
+cd clean-cupp
+mv clean_cupp.py /usr/bin/
 ```
 Then use it by passing it 2 arguments
 ```bash
-clean_spanish.py [file to fix] [fixed file]
+clean_cupp.py [file to fix] [fixed file]
 ```
 
 #### Example:
@@ -44,7 +44,7 @@ Since you downloadit, unzip it with gunzip:
 gunzip words.spanish.gz
 ```
 ```bash
-clean_spanish.py words.spanish words.spanish.fix
+clean_cupp.py words.spanish words.spanish.fix
 ```
 ---
 
@@ -73,16 +73,16 @@ pip install pwntools
 
 Primero, clona este repositorio:
 ```bash
-git clone https://github.com/nothingbutlucas/clean-spanish-dictionary
+git clone https://github.com/nothingbutlucas/clean-cupp
 ```
 Move el script a algún lugar de tu PATH:
 ```bash
-cd clean-spanish-dictionary
-mv clean_spanish.py /usr/bin/
+cd clean-cupp
+mv clean_cupp.py /usr/bin/
 ```
 Después ejecutalo pasandole 2 argumentos
 ```bash
-clean_spanish.py [archivo a arreglar] [archivo arreglado]
+clean_cupp.py [archivo a arreglar] [archivo arreglado]
 ```
 
 #### Ejemplo:
@@ -95,6 +95,6 @@ gunzip words.spanish.gz
 ```
 Y luego ejecuta el script
 ```bash
-clean_spanish.py words.spanish words.spanish.fix
+clean_cupp.py words.spanish words.spanish.fix
 ```
 
