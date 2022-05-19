@@ -22,8 +22,8 @@ with open(file_for_read, 'r') as read_file, open(file_for_write, 'w') as write_f
             word = word.replace("i`", "í")
             word = word.replace("o`", "ó")
             word = word.replace("u`", "ú")
-        if word != "###":
-            p.status(f"{word} is not ###")
+        if word != "'#''#''#'":
+            p.status(f"{word} is not '#''#''#'")
             if "'#'" in word:
                 p.status(f"Find an '#' in {word}")
                 word = word.replace("'#'","#")
